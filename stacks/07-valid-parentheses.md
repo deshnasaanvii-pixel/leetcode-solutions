@@ -5,12 +5,13 @@
 **Approach:** Use a stack. Push opening brackets and check that each closing bracket matches the most recent opening bracket.
 
 **Test Cases:**
-- "()[]{}" ? Valid
-- "(]" ? Invalid
+
+* `"()[]{}"` → Valid
+* `"(]"` → Invalid
 
 **Time Complexity:** O(n)
 **Space Complexity:** O(n)
 
-**LeetCode:** Valid Parentheses
+**LeetCode:** [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 
 **Result:** Accepted
